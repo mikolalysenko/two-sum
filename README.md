@@ -15,12 +15,12 @@ Using npm:
 ```javascript
 var twoSum = require("two-sum")
 
-//Add two wildly different sized
+//Add two wildly different sized floats
 var result = twoSum(1e64, 1e-64)
 console.log(result)
 
 //Prints:
-//  [1e64, 1e-64]
+//  [1e-64, 1e64]
 ```
 
 ## API
@@ -32,7 +32,7 @@ Computes a non-overlapping sequence representing the sum of a and b.
 * `b` is a number
 * `result` is an optional length 2 array encoding the result of the sum of `a` and `b`
 
-**Returns** A length 2 array representing the non-overlapping sequence encoding the sum of a and b
+**Returns** A length 2 array representing the non-overlapping sequence encoding the sum of a and b.  The first term has smaller magnitude than the second.
 
 ## Credits
 Based on an idea from JRS robust geometric predicates paper.

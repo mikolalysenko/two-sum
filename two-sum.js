@@ -9,9 +9,9 @@ function fastTwoSum(a, b, result) {
 	var br = b - bv
 	var ar = a - av
 	if(result) {
-		result[0] = x
-		result[1] = ar + br
+		result[0] = ar + br
+		result[1] = x
 		return result
 	}
-	return [x, ar+br]
+	return [ar+br, x]
 }
