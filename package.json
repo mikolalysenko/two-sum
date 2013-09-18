@@ -1,0 +1,33 @@
+{
+  "name": "fast-two-sum",
+  "version": "0.0.0",
+  "description": "Computes a non-overlapping sequence representing the sum of two floating point numbers.",
+  "main": "two-sum.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/fast-two-sum.git"
+  },
+  "keywords": [
+    "two",
+    "sum",
+    "floating",
+    "point",
+    "robust",
+    "exact"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/fast-two-sum/issues"
+  }
+}
