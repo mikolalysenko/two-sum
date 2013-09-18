@@ -1,5 +1,5 @@
-fast-two-sum
-============
+two-sum
+=======
 Computes the sum of two floating point numbers as a non-overlapping sequence using Knuth's method.
 
 * D.E. Knuth.  "The Art of Computer Programming: Seminumerical Algorithms".  Volume 2.  1981
@@ -7,13 +7,13 @@ Computes the sum of two floating point numbers as a non-overlapping sequence usi
 ## Install
 Using npm:
 
-		npm install fast-two-sum
+		npm install two-sum
 
 
 ## Example
 
 ```javascript
-var twoSum = require("fast-two-sum")
+var twoSum = require("two-sum")
 
 //Add two wildly different sized
 var result = twoSum(1e64, 1e-64)
@@ -25,7 +25,7 @@ console.log(result)
 
 ## API
 
-### `require("fast-two-sum")(a, b[, result])`
+### `require("two-sum")(a, b[, result])`
 Computes a non-overlapping sequence representing the sum of a and b.
 
 * `a` is a number
