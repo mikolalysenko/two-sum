@@ -1,15 +1,16 @@
 {
   "name": "fast-two-sum",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Computes a non-overlapping sequence representing the sum of two floating point numbers.",
   "main": "two-sum.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "tape": "~1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.0"
+	},
   "scripts": {
     "test": "tap test/*"
   },
