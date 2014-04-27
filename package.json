@@ -1,6 +1,6 @@
 {
   "name": "two-sum",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Computes a non-overlapping sequence representing the sum of two floating point numbers.",
   "main": "two-sum.js",
   "directories": {
