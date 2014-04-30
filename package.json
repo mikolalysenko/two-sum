@@ -6,13 +6,13 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "tape": "~1.1.0"
-	},
+    "test-float-overlap": "^1.0.1",
+    "tape": "^2.12.3"
+  },
   "scripts": {
-    "test": "tap test/*"
+    "test": "tape test/*"
   },
   "repository": {
     "type": "git",
