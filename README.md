@@ -4,6 +4,10 @@ Computes the sum of two floating point numbers as a non-overlapping sequence usi
 
 * D.E. Knuth.  "The Art of Computer Programming: Seminumerical Algorithms".  Volume 2.  1981
 
+[![testling badge](https://ci.testling.com/mikolalysenko/two-sum.png)](https://ci.testling.com/mikolalysenko/two-sum)
+
+[![build status](https://secure.travis-ci.org/mikolalysenko/two-sum.png)](http://travis-ci.org/mikolalysenko/two-sum)
+
 ## Install
 Using npm:
 
