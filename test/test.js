@@ -88,7 +88,7 @@ require("tape")(function(t) {
       var b = specialValues[j]
       var s = twoSum(a, b)
       verifyTwoSum(a, b, s)
-      t.same(twoSum(a, b), s, "commutativity")
+      t.same(twoSum(b, a), s, "commutativity")
     }
   }
 
